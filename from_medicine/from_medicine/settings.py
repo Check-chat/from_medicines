@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'noti_Prescription',
     'record_Medicine',
     'reminder',
+    'search_Review',
     'account',
 ]
 
