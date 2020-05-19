@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from rest_framework import routers
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -22,4 +23,6 @@ urlpatterns = [
     path('record_Medicine/', include('record_Medicine.urls')),
     path('reminder/', include('reminder.urls')),
     path('search_Review/', include('search_Review.urls')),
+    path('account/', include('account.urls')),
+
 ]
